@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint_Excel_001</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>C:\Users\modep\OneDrive\Desktop\TC Scenarios for Cura Health Care Services 1.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>TestData Table-1</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2024-01-30T10:07:09.463+05:30</taken-date>
+   <column-names>
+      <column-name>Test Case ID</column-name>
+      <column-name>Test Data/Input Data</column-name>
+      <column-name>Expected Values</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "checked": true
+    },
+    {
+      "checked": true
+    },
+    {
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "TC_CHS_Home_001",
+      "checked": true
+    },
+    {
+      "value": "Patient Account Creation",
+      "checked": true
+    },
+    {
+      "value": "We can see the login page and we can fill the login details, The account will be created successfully",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": true
+    },
+    {
+      "value": "",
+      "checked": true
+    },
+    {
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "TC_CHS_HOME_002",
+      "checked": true
+    },
+    {
+      "value": "Take Appointment",
+      "checked": true
+    },
+    {
+      "value": "After Creating the account, We can move appointment page and we can click on take appointment, Give all the details and give the appointment",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": true
+    },
+    {
+      "value": "",
+      "checked": true
+    },
+    {
+      "value": "",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "TC_CHS_HOME_003",
+      "checked": true
+    },
+    {
+      "value": "Take Multiple Appointments",
+      "checked": true
+    },
+    {
+      "value": "After Creating the account, We can move appointment page and we can click on take appointment, Give all the details and give the appointment then after we can create another appointment. Take Multiple Appointments",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "checked": true
+    },
+    {
+      "checked": true
+    },
+    {
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "TC_CHS_HOME_004",
+      "checked": true
+    },
+    {
+      "value": "Check the previous appointments",
+      "checked": true
+    },
+    {
+      "value": "After all the process we can check on previous appointment lists",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "checked": true
+    },
+    {
+      "checked": true
+    },
+    {
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "TC_CHS_HOME_005",
+      "checked": true
+    },
+    {
+      "value": "Account Logout",
+      "checked": true
+    },
+    {
+      "value": "After checking the previous appointments we can logout the account ",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
