@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDT_Cura Health Care Services_TestSuite" time="15.953" tests="1" failures="0" errors="0">
+   <testsuite name="DDT_Cura Health Care Services_TestSuite" tests="1" failures="0" errors="0" time="15.953" skipped="0" timestamp="27-01-2024T11:24:40" hostname="modep - LAPTOP-FMBJHFG0" id="Test Suites/DDT_CHS_TestSuite/DDT_Cura Health Care Services_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240127_112432\\DDT_CHS_TestSuite\\DDT_Cura Health Care Services_TestSuite\\20240127_112432"/>
+         <property name="logFiles" value="C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240127_112432\\DDT_CHS_TestSuite\\DDT_Cura Health Care Services_TestSuite\\20240127_112432\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="modep - LAPTOP-FMBJHFG0"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="87648dcc97a72c42fe600917fcbca217"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data_Driven_Testing/CHS_DDT_Validate_Excel_OR" time="15.63" classname="Test Cases/Data_Driven_Testing/CHS_DDT_Validate_Excel_OR" status="PASSED">
+         <system-out><![CDATA[27-01-2024T11:24:41 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/CHS_DDT_Validate_Excel_OR: Test Cases/Data_Driven_Testing/CHS_DDT_Validate_Excel_OR
+
+27-01-2024T11:24:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-01-2024T11:24:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-01-2024T11:24:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-01-2024T11:24:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-01-2024T11:24:44 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+27-01-2024T11:24:49 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+27-01-2024T11:24:49 - [TEST_STEP][PASSED] - click(findTestObject("Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-01-2024T11:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+27-01-2024T11:24:51 - [TEST_STEP][PASSED] - setText(findTestObject("Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/input_Username_username"), Username): Text 'John Doe' is set on object 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/input_Username_username'
+
+27-01-2024T11:24:52 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/input_Username_username'
+
+27-01-2024T11:24:52 - [TEST_STEP][PASSED] - setText(findTestObject("Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/input_Password_password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/input_Password_password'
+
+27-01-2024T11:24:53 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/input_Password_password'
+
+27-01-2024T11:24:53 - [TEST_STEP][PASSED] - click(findTestObject("Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-01-2024T11:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+27-01-2024T11:24:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/h2_Make Appointment"), 0): Object 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+27-01-2024T11:24:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-01-2024T11:24:56 - [MESSAGE][PASSED] - Object 'Object Repository/Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/h2_Make Appointment' is present
+
+27-01-2024T11:24:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-01-2024T11:24:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-01-2024T11:24:40 - [TEST_SUITE][PASSED] - DDT_Cura Health Care Services_TestSuite: Test Cases/Data_Driven_Testing/CHS_DDT_Validate_Excel_OR]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

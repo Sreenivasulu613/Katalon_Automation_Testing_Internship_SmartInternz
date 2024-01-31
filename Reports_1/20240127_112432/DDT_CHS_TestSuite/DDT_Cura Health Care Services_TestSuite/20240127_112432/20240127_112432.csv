@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_Cura Health Care Services_TestSuite,Chrome 120.0.0.0,,,27-01-2024 11:24:40,27-01-2024 11:24:56,15.953s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/CHS_DDT_Validate_Excel_OR,Chrome 120.0.0.0,,,27-01-2024 11:24:41,27-01-2024 11:24:56,15.630s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-01-2024 11:24:41,27-01-2024 11:24:44,3.053s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,27-01-2024 11:24:44,27-01-2024 11:24:49,5.056s,PASSED
+"click(findTestObject(""Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,27-01-2024 11:24:49,27-01-2024 11:24:51,1.493s,PASSED
+"setText(findTestObject(""Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 120.0.0.0,,,27-01-2024 11:24:51,27-01-2024 11:24:52,1.158s,PASSED
+"setText(findTestObject(""Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 120.0.0.0,,,27-01-2024 11:24:52,27-01-2024 11:24:53,0.828s,PASSED
+"click(findTestObject(""Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,27-01-2024 11:24:53,27-01-2024 11:24:56,2.568s,PASSED
+"verifyElementPresent(findTestObject(""Cura Health Care_Manual Mode_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Chrome 120.0.0.0,,,27-01-2024 11:24:56,27-01-2024 11:24:56,0.489s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,27-01-2024 11:24:56,27-01-2024 11:24:56,0.395s,PASSED

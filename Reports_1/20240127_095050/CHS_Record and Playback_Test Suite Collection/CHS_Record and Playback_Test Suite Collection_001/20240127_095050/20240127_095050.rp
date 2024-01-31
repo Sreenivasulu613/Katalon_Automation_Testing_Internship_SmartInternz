@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240127_095050</name>
+   <tag></tag>
+   <displayName>CHS_TestSuite_Collection_20240127_095050</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240127_095050/Record and Playback_Suite/CHS_Record and Playback_Mode_001/20240127_095053</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Edge Chromium</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/CHS_Record and Playback_Test Suite Collection/CHS_Record and Playback_Test Suite Collection_001</testSuiteCollectionId>
+</ReportCollectionEntity>

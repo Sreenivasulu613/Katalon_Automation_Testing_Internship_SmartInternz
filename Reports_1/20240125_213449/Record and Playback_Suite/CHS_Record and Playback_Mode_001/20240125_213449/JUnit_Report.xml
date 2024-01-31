@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CHS_Record and Playback_Mode_001" time="256.218" tests="5" failures="0" errors="0">
+   <testsuite name="CHS_Record and Playback_Mode_001" tests="5" failures="0" errors="0" time="256.218" skipped="0" timestamp="25-01-2024T21:35:06" hostname="modep - LAPTOP-FMBJHFG0" id="Test Suites/Record and Playback_Suite/CHS_Record and Playback_Mode_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240125_213449\\Record and Playback_Suite\\CHS_Record and Playback_Mode_001\\20240125_213449"/>
+         <property name="logFiles" value="C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240125_213449\\Record and Playback_Suite\\CHS_Record and Playback_Mode_001\\20240125_213449\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="modep - LAPTOP-FMBJHFG0"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="b2abe9fe9135d60be3d144132c6b3821"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Creating Account_001" time="98.07" classname="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Creating Account_001" status="PASSED">
+         <system-out><![CDATA[25-01-2024T21:35:07 - [TEST_CASE][PASSED] - Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Creating Account_001: Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Creating Account_001
+
+25-01-2024T21:35:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-01-2024T21:35:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-01-2024T21:35:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-01-2024T21:36:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-01-2024T21:36:18 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:36:28 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:36:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+25-01-2024T21:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+25-01-2024T21:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+25-01-2024T21:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+25-01-2024T21:36:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_form-control")): Object: 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:36:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_username'
+
+25-01-2024T21:36:34 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_username'
+
+25-01-2024T21:36:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_password'
+
+25-01-2024T21:36:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_password'
+
+25-01-2024T21:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+25-01-2024T21:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+25-01-2024T21:36:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-01-2024T21:36:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_HOME_Validate Take an Appointment_002" time="34.307" classname="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_HOME_Validate Take an Appointment_002" status="PASSED">
+         <system-out><![CDATA[25-01-2024T21:36:45 - [TEST_CASE][PASSED] - Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_HOME_Validate Take an Appointment_002: Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_HOME_Validate Take an Appointment_002
+
+25-01-2024T21:36:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-01-2024T21:36:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-01-2024T21:36:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-01-2024T21:36:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-01-2024T21:36:53 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:37:06 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/i_fa fa-bars")): Object: 'Object Repository/CHS_Pages_Take Appointment_OR/i_fa fa-bars' is clicked on
+
+25-01-2024T21:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Take Appointment_OR/i_fa fa-bars' is clicked on
+
+25-01-2024T21:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/a_Login")): Object: 'Object Repository/CHS_Pages_Take Appointment_OR/a_Login' is clicked on
+
+25-01-2024T21:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Take Appointment_OR/a_Login' is clicked on
+
+25-01-2024T21:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/input_form-control")): Object: 'Object Repository/CHS_Pages_Take Appointment_OR/input_form-control' is clicked on
+
+25-01-2024T21:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Take Appointment_OR/input_form-control' is clicked on
+
+25-01-2024T21:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Take Appointment_OR/input_username'
+
+25-01-2024T21:37:10 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Take Appointment_OR/input_username'
+
+25-01-2024T21:37:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CHS_Pages_Take Appointment_OR/input_password'
+
+25-01-2024T21:37:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CHS_Pages_Take Appointment_OR/input_password'
+
+25-01-2024T21:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/button_Login")): Object: 'Object Repository/CHS_Pages_Take Appointment_OR/button_Login' is clicked on
+
+25-01-2024T21:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Take Appointment_OR/button_Login' is clicked on
+
+25-01-2024T21:37:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/select_Tokyo CURA Healthcare Center        _5b4107"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Take Appointment_OR/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:37:15 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Take Appointment_OR/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/label_Medicaid")): Object: 'Object Repository/CHS_Pages_Take Appointment_OR/label_Medicaid' is clicked on
+
+25-01-2024T21:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Take Appointment_OR/label_Medicaid' is clicked on
+
+25-01-2024T21:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/CHS_Pages_Take Appointment_OR/span_glyphicon glyphicon-calendar' is clicked on
+
+25-01-2024T21:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Take Appointment_OR/span_glyphicon glyphicon-calendar' is clicked on
+
+25-01-2024T21:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/td_31")): Object: 'Object Repository/CHS_Pages_Take Appointment_OR/td_31' is clicked on
+
+25-01-2024T21:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Take Appointment_OR/td_31' is clicked on
+
+25-01-2024T21:37:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/textarea_comment"), "Make an Appointment"): Text 'Make an Appointment' is set on object 'Object Repository/CHS_Pages_Take Appointment_OR/textarea_comment'
+
+25-01-2024T21:37:17 - [MESSAGE][PASSED] - Text 'Make an Appointment' is set on object 'Object Repository/CHS_Pages_Take Appointment_OR/textarea_comment'
+
+25-01-2024T21:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Take Appointment_OR/button_Book Appointment")): Object: 'Object Repository/CHS_Pages_Take Appointment_OR/button_Book Appointment' is clicked on
+
+25-01-2024T21:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Take Appointment_OR/button_Book Appointment' is clicked on
+
+25-01-2024T21:37:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-01-2024T21:37:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_HomeValidate Multiple Appointsments_003" time="38.763" classname="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_HomeValidate Multiple Appointsments_003" status="PASSED">
+         <system-out><![CDATA[25-01-2024T21:37:19 - [TEST_CASE][PASSED] - Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_HomeValidate Multiple Appointsments_003: Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_HomeValidate Multiple Appointsments_003
+
+25-01-2024T21:37:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-01-2024T21:37:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-01-2024T21:37:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-01-2024T21:37:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-01-2024T21:37:21 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:37:31 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+25-01-2024T21:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+25-01-2024T21:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login' is clicked on
+
+25-01-2024T21:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login' is clicked on
+
+25-01-2024T21:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_form-control")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:37:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_username'
+
+25-01-2024T21:37:34 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_username'
+
+25-01-2024T21:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_form-control_1")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_form-control_1' is clicked on
+
+25-01-2024T21:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_form-control_1' is clicked on
+
+25-01-2024T21:37:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_password'
+
+25-01-2024T21:37:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_password'
+
+25-01-2024T21:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Login' is clicked on
+
+25-01-2024T21:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Login' is clicked on
+
+25-01-2024T21:37:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:37:37 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+25-01-2024T21:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+25-01-2024T21:37:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+25-01-2024T21:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+25-01-2024T21:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+25-01-2024T21:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+25-01-2024T21:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_24")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_24' is clicked on
+
+25-01-2024T21:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_24' is clicked on
+
+25-01-2024T21:37:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment"), "Take an Appointment"): Text 'Take an Appointment' is set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:37:40 - [MESSAGE][PASSED] - Text 'Take an Appointment' is set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+25-01-2024T21:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+25-01-2024T21:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+25-01-2024T21:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+25-01-2024T21:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+25-01-2024T21:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+25-01-2024T21:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_programs")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_programs' is clicked on
+
+25-01-2024T21:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_programs' is clicked on
+
+25-01-2024T21:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Medicare")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Medicare' is clicked on
+
+25-01-2024T21:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Medicare' is clicked on
+
+25-01-2024T21:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+25-01-2024T21:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+25-01-2024T21:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_25")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_25' is clicked on
+
+25-01-2024T21:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_25' is clicked on
+
+25-01-2024T21:37:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment"), "Take an 2nd Appointment"): Text 'Take an 2nd Appointment' is set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:37:46 - [MESSAGE][PASSED] - Text 'Take an 2nd Appointment' is set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+25-01-2024T21:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+25-01-2024T21:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+25-01-2024T21:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+25-01-2024T21:37:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:37:50 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+25-01-2024T21:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+25-01-2024T21:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_programs_1")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_programs_1' is clicked on
+
+25-01-2024T21:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_programs_1' is clicked on
+
+25-01-2024T21:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+25-01-2024T21:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+25-01-2024T21:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_31")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_31' is clicked on
+
+25-01-2024T21:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_31' is clicked on
+
+25-01-2024T21:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment"), "Take Multiple Appointments"): Text 'Take Multiple Appointments' is set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:37:53 - [MESSAGE][PASSED] - Text 'Take Multiple Appointments' is set on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:37:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:37:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+25-01-2024T21:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+25-01-2024T21:37:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_History' is clicked on
+
+25-01-2024T21:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_History' is clicked on
+
+25-01-2024T21:37:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-01-2024T21:37:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004" time="37.899" classname="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004" status="PASSED">
+         <system-out><![CDATA[25-01-2024T21:37:58 - [TEST_CASE][PASSED] - Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004: Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004
+
+25-01-2024T21:37:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-01-2024T21:37:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-01-2024T21:37:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-01-2024T21:38:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-01-2024T21:38:00 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:38:11 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+25-01-2024T21:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+25-01-2024T21:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+25-01-2024T21:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+25-01-2024T21:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_form-control")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_form-control")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_username'
+
+25-01-2024T21:38:15 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_username'
+
+25-01-2024T21:38:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_password'
+
+25-01-2024T21:38:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_password'
+
+25-01-2024T21:38:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+25-01-2024T21:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+25-01-2024T21:38:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:38:19 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_hospital_readmission")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+25-01-2024T21:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+25-01-2024T21:38:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/div_Medicare                               _cb3988")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/div_Medicare                               _cb3988' is clicked on
+
+25-01-2024T21:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/div_Medicare                               _cb3988' is clicked on
+
+25-01-2024T21:38:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+25-01-2024T21:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+25-01-2024T21:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+25-01-2024T21:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+25-01-2024T21:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/td_23")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/td_23' is clicked on
+
+25-01-2024T21:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/td_23' is clicked on
+
+25-01-2024T21:38:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/textarea_comment"), "Make Appointment"): Text 'Make Appointment' is set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:38:22 - [MESSAGE][PASSED] - Text 'Make Appointment' is set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:38:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+25-01-2024T21:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+25-01-2024T21:38:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+25-01-2024T21:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+25-01-2024T21:38:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_History' is clicked on
+
+25-01-2024T21:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_History' is clicked on
+
+25-01-2024T21:38:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-01-2024T21:38:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Account Logout_005" time="46.621" classname="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Account Logout_005" status="PASSED">
+         <system-out><![CDATA[25-01-2024T21:38:36 - [TEST_CASE][PASSED] - Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Account Logout_005: Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Account Logout_005
+
+25-01-2024T21:38:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-01-2024T21:38:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-01-2024T21:38:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-01-2024T21:38:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-01-2024T21:38:37 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:38:51 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+25-01-2024T21:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+25-01-2024T21:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+25-01-2024T21:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+25-01-2024T21:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_Login' is clicked on
+
+25-01-2024T21:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_form-control")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+25-01-2024T21:38:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_username'
+
+25-01-2024T21:38:57 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_username'
+
+25-01-2024T21:38:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_password'
+
+25-01-2024T21:38:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_password'
+
+25-01-2024T21:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+25-01-2024T21:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+25-01-2024T21:39:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:39:02 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+25-01-2024T21:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_hospital_readmission")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+25-01-2024T21:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+25-01-2024T21:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+25-01-2024T21:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+25-01-2024T21:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/td_29")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/td_29' is clicked on
+
+25-01-2024T21:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/td_29' is clicked on
+
+25-01-2024T21:39:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/textarea_comment"), "Make Appointment"): Text 'Make Appointment' is set on object 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:39:05 - [MESSAGE][PASSED] - Text 'Make Appointment' is set on object 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/textarea_comment'
+
+25-01-2024T21:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+25-01-2024T21:39:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+25-01-2024T21:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+25-01-2024T21:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+25-01-2024T21:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+25-01-2024T21:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_History' is clicked on
+
+25-01-2024T21:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_History' is clicked on
+
+25-01-2024T21:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+25-01-2024T21:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+25-01-2024T21:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+25-01-2024T21:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Account Logout_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+25-01-2024T21:39:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-01-2024T21:39:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-01-2024T21:35:06 - [TEST_SUITE][PASSED] - CHS_Record and Playback_Mode_001: Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Account Logout_005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
