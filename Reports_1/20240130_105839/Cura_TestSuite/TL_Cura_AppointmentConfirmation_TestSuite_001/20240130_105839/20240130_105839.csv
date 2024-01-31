@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Cura_AppointmentConfirmation_TestSuite_001,Chrome 121.0.0.0,,,30-01-2024 10:58:48,30-01-2024 11:02:31,3m - 43.244s,FAILED
+,,,,,,,
+Test Cases/TestListener1/TC_TL_CuraAppointmentConfirmation,Chrome 121.0.0.0,,,30-01-2024 11:02:30,30-01-2024 11:02:31,1.063s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:30,30-01-2024 11:02:30,0.104s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:30,30-01-2024 11:02:31,0.110s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.002s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.104s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.124s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.098s,ERROR
+"selectOptionByValue(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.092s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.089s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.071s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.084s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.072s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:02:31,30-01-2024 11:02:31,0.085s,ERROR

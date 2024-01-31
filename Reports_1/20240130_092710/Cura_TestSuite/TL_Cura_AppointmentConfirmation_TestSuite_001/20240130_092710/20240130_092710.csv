@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Cura_AppointmentConfirmation_TestSuite_001,Chrome 121.0.0.0,,,30-01-2024 09:27:37,30-01-2024 09:34:44,7m - 7.564s,FAILED
+,,,,,,,
+Test Cases/TestListener1/TC_TL_CuraAppointmentConfirmation,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:30,1.069s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.087s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.087s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.002s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.071s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.071s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.071s,ERROR
+"selectOptionByValue(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.095s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.174s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.079s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:29,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:29,30-01-2024 09:34:30,0.155s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:30,30-01-2024 09:34:30,0.076s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:30,30-01-2024 09:34:30,0.078s,ERROR
+,,,,,,,
+Test Cases/TestListener1/TC_TL_CuraAppointmentConfirmation,Chrome 121.0.0.0,,,30-01-2024 09:34:35,30-01-2024 09:34:44,9.646s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:35,30-01-2024 09:34:35,0.153s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:35,30-01-2024 09:34:43,8.401s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:43,30-01-2024 09:34:43,0.002s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:43,30-01-2024 09:34:43,0.170s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:43,30-01-2024 09:34:44,0.212s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:44,30-01-2024 09:34:44,0.079s,ERROR
+"selectOptionByValue(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 121.0.0.0,,,30-01-2024 09:34:44,30-01-2024 09:34:44,0.082s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:44,30-01-2024 09:34:44,0.192s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:44,30-01-2024 09:34:44,0.076s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:44,30-01-2024 09:34:44,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:44,30-01-2024 09:34:44,0.085s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:44,30-01-2024 09:34:44,0.075s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 09:34:44,30-01-2024 09:34:44,0.073s,ERROR

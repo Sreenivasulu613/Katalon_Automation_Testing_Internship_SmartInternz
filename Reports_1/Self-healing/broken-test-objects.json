@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Register Mercury Tours/input_firstName",
+      "brokenLocator": "//input[@name\u003d\u0027firstName\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Register Mercury Tours/input_firstName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Login",
+      "brokenLocator": "//button[@id\u003d\u0027btn-login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Login_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login",
+      "brokenLocator": "//button[@id\u003d\u0027btn-login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/button_Login",
+      "brokenLocator": "//button[@id\u003d\u0027btn-login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/button_Login_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CHS_Pages_Take Appointment_OR/button_Book Appointment",
+      "brokenLocator": "//button[@id\u003d\u0027btn-book-appointment\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CHS_Pages_Take Appointment_OR/button_Book Appointment_position.png"
+    }
+  ]
+}
