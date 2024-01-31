@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Cura_Checking_Appointment_Booked_or_Not,Chrome 120.0.0.0,,,29-01-2024 12:11:22,29-01-2024 12:12:34,1m - 11.634s,PASSED
+,,,,,,,
+Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004,Chrome 120.0.0.0,,,29-01-2024 12:11:34,29-01-2024 12:12:34,59.735s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 12:11:34,29-01-2024 12:11:36,1.923s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 12:11:36,29-01-2024 12:11:37,0.575s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 12:11:37,29-01-2024 12:11:39,2.124s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,29-01-2024 12:11:39,29-01-2024 12:12:12,32.945s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,29-01-2024 12:12:12,29-01-2024 12:12:13,1.098s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_hospital_readmission""))",Chrome 120.0.0.0,,,29-01-2024 12:12:13,29-01-2024 12:12:27,13.508s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/div_Medicare                               _cb3988""))",Chrome 120.0.0.0,,,29-01-2024 12:12:27,29-01-2024 12:12:27,0.471s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 120.0.0.0,,,29-01-2024 12:12:27,29-01-2024 12:12:28,0.355s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 120.0.0.0,,,29-01-2024 12:12:28,29-01-2024 12:12:28,0.384s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/td_23""))",Chrome 120.0.0.0,,,29-01-2024 12:12:28,29-01-2024 12:12:28,0.485s,PASSED
+"setText(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/textarea_comment""), ""Make Appointment"")",Chrome 120.0.0.0,,,29-01-2024 12:12:28,29-01-2024 12:12:29,0.884s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,29-01-2024 12:12:29,29-01-2024 12:12:30,0.778s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 120.0.0.0,,,29-01-2024 12:12:30,29-01-2024 12:12:31,0.990s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 12:12:31,29-01-2024 12:12:31,0.370s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 12:12:31,29-01-2024 12:12:32,0.957s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 12:12:32,29-01-2024 12:12:34,1.615s,PASSED

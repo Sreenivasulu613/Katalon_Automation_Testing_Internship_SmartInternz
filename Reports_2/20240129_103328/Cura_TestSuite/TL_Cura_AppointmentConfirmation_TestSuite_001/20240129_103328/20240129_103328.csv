@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Cura_AppointmentConfirmation_TestSuite_001,Chrome 120.0.0.0,,,29-01-2024 10:33:36,29-01-2024 10:34:04,27.483s,PASSED
+,,,,,,,
+Test Cases/TestListener1/TC_TL_CuraAppointmentConfirmation_001,Chrome 120.0.0.0,,,29-01-2024 10:33:50,29-01-2024 10:34:04,13.558s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 10:33:50,29-01-2024 10:33:54,3.417s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,29-01-2024 10:33:54,29-01-2024 10:33:56,1.810s,PASSED
+"click(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 120.0.0.0,,,29-01-2024 10:33:56,29-01-2024 10:33:56,0.658s,PASSED
+"click(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 120.0.0.0,,,29-01-2024 10:33:56,29-01-2024 10:33:57,0.634s,PASSED
+"click(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/form_Facility                              _20adf0""))",Chrome 120.0.0.0,,,29-01-2024 10:33:57,29-01-2024 10:33:58,0.597s,PASSED
+"click(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/input_visit_date""))",Chrome 120.0.0.0,,,29-01-2024 10:33:58,29-01-2024 10:33:58,0.577s,PASSED
+"click(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/td_30""))",Chrome 120.0.0.0,,,29-01-2024 10:33:58,29-01-2024 10:33:59,0.737s,PASSED
+"setText(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/textarea_comment""), ""Make an Appointment"")",Chrome 120.0.0.0,,,29-01-2024 10:33:59,29-01-2024 10:34:00,0.985s,PASSED
+"click(findTestObject(""Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,29-01-2024 10:34:00,29-01-2024 10:34:01,1.204s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 10:34:01,29-01-2024 10:34:04,2.565s,PASSED

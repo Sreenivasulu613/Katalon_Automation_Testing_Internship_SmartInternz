@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TL_Cura_Checking_Appointment_Booked_or_Not" time="71.634" tests="1" failures="0" errors="0">
+   <testsuite name="TL_Cura_Checking_Appointment_Booked_or_Not" tests="1" failures="0" errors="0" time="71.634" skipped="0" timestamp="29-01-2024T12:11:22" hostname="modep - LAPTOP-FMBJHFG0" id="Test Suites/Cura_TestSuite/TL_Cura_Checking_Appointment_Booked_or_Not">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240129_121115\\Cura_TestSuite\\TL_Cura_Checking_Appointment_Booked_or_Not\\20240129_121115"/>
+         <property name="logFiles" value="C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240129_121115\\Cura_TestSuite\\TL_Cura_Checking_Appointment_Booked_or_Not\\20240129_121115\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240129_121115\\Cura_TestSuite\\TL_Cura_Checking_Appointment_Booked_or_Not\\20240129_121115\\1706510497188.png"/>
+         <property name="hostName" value="modep - LAPTOP-FMBJHFG0"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="f7d781c1d4b1d11fd16855328b15b085"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004" time="59.735" classname="Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004" status="PASSED">
+         <system-out><![CDATA[29-01-2024T12:11:34 - [TEST_CASE][PASSED] - Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004: Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004
+
+29-01-2024T12:11:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Text ****** has been set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_password'
+
+29-01-2024T12:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_form-control")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+29-01-2024T12:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_form-control' is clicked on
+
+29-01-2024T12:11:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_username'
+
+29-01-2024T12:11:36 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_username'
+
+29-01-2024T12:11:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_password'
+
+29-01-2024T12:11:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_password'
+
+29-01-2024T12:11:36 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Cura_MultiplePpointments.sampleBeforeTestCase(Cura_MultiplePpointments.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706510475454.run(TempTestSuite1706510475454.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-FMBJHFG0', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\modep\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7d781c1d4b1d11fd16855328b15b085
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+29-01-2024T12:11:36 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login")): com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Cura_MultiplePpointments.sampleBeforeTestCase(Cura_MultiplePpointments.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706510475454.run(TempTestSuite1706510475454.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-FMBJHFG0', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\modep\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7d781c1d4b1d11fd16855328b15b085
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+29-01-2024T12:11:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Cura_MultiplePpointments.sampleBeforeTestCase(Cura_MultiplePpointments.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706510475454.run(TempTestSuite1706510475454.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-FMBJHFG0', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\modep\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7d781c1d4b1d11fd16855328b15b085
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240129_121115\\Cura_TestSuite\\TL_Cura_Checking_Appointment_Booked_or_Not\\20240129_121115\\1706510497188.png]]
+
+29-01-2024T12:11:37 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Cura_MultiplePpointments.sampleBeforeTestCase(Cura_MultiplePpointments.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706510475454.run(TempTestSuite1706510475454.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-FMBJHFG0', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\modep\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7d781c1d4b1d11fd16855328b15b085
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+29-01-2024T12:11:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-01-2024T12:11:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/input_username'
+
+29-01-2024T12:11:38 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/input_username'
+
+29-01-2024T12:11:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/input_password'
+
+29-01-2024T12:11:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/input_password'
+
+29-01-2024T12:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-01-2024T12:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-01-2024T12:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-01-2024T12:12:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='btn-login']'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-01-2024T12:12:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login'. Try using Self-healing.
+
+29-01-2024T12:12:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[@id='btn-login']'.
+
+29-01-2024T12:12:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//section[@id='login']/div/div/div[2]/form/div[4]/div/button'.
+
+29-01-2024T12:12:11 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//button'.
+
+29-01-2024T12:12:12 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/modep/Katalon Studio/Software Automation Testing with Katalon_1/Reports/Self-healing/Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login_position.png
+
+29-01-2024T12:12:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login' was broken. Propose an alternative one: '//button'.
+
+29-01-2024T12:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+29-01-2024T12:12:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+29-01-2024T12:12:13 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+29-01-2024T12:12:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_hospital_readmission")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+29-01-2024T12:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+29-01-2024T12:12:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/div_Medicare                               _cb3988")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/div_Medicare                               _cb3988' is clicked on
+
+29-01-2024T12:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/div_Medicare                               _cb3988' is clicked on
+
+29-01-2024T12:12:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+29-01-2024T12:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+29-01-2024T12:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+29-01-2024T12:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+29-01-2024T12:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/td_23")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/td_23' is clicked on
+
+29-01-2024T12:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/td_23' is clicked on
+
+29-01-2024T12:12:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/textarea_comment"), "Make Appointment"): Text 'Make Appointment' is set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/textarea_comment'
+
+29-01-2024T12:12:29 - [MESSAGE][PASSED] - Text 'Make Appointment' is set on object 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/textarea_comment'
+
+29-01-2024T12:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+29-01-2024T12:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+29-01-2024T12:12:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+29-01-2024T12:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+29-01-2024T12:12:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+29-01-2024T12:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+29-01-2024T12:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Checking Appointment is booked or Not_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+29-01-2024T12:12:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_History' is clicked on
+
+29-01-2024T12:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_History' is clicked on
+
+29-01-2024T12:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_History' is clicked on
+
+29-01-2024T12:12:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+29-01-2024T12:12:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/i_fa fa-bars")): Object: 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+29-01-2024T12:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+29-01-2024T12:12:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+29-01-2024T12:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_CuraAppointment_OR/Page_CURA Healthcare Service/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-01-2024T12:11:22 - [TEST_SUITE][PASSED] - TL_Cura_Checking_Appointment_Booked_or_Not: Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

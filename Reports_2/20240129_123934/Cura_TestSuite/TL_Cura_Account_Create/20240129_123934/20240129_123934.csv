@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Cura_Account_Create,Chrome 120.0.0.0,,,29-01-2024 12:39:43,29-01-2024 12:41:24,1m - 40.653s,PASSED
+,,,,,,,
+Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_Home_Validate Creating Account_001,Chrome 120.0.0.0,,,29-01-2024 12:39:59,29-01-2024 12:41:24,1m - 25.485s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 12:39:59,29-01-2024 12:40:01,2.545s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 12:40:01,29-01-2024 12:40:03,2.353s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 12:40:03,29-01-2024 12:40:04,0.037s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 12:40:04,29-01-2024 12:40:05,1.755s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 12:40:05,29-01-2024 12:40:09,3.412s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 12:40:09,29-01-2024 12:40:44,35.125s,ERROR
+return null,Chrome 120.0.0.0,,,29-01-2024 12:40:44,29-01-2024 12:40:44,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 12:40:44,29-01-2024 12:40:45,0.477s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 12:40:45,29-01-2024 12:41:20,35.434s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 12:41:20,29-01-2024 12:41:20,0.030s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 12:41:20,29-01-2024 12:41:21,1.004s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 12:41:21,29-01-2024 12:41:22,0.533s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 12:41:22,29-01-2024 12:41:24,2.485s,PASSED

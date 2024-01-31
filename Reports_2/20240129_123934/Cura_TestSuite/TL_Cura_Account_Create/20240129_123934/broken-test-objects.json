@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/button_Login",
+      "brokenLocator": "//button[@id\u003d\u0027btn-login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240129_123934/Cura_TestSuite/TL_Cura_Account_Create/20240129_123934/Object Repository/CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/button_Login_position.png"
+    }
+  ]
+}

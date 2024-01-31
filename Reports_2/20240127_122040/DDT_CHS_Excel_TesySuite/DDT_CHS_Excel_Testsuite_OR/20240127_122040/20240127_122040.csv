@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_CHS_Excel_Testsuite_OR,Chrome 120.0.0.0,,,27-01-2024 12:20:47,27-01-2024 12:21:35,48.410s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing_CHS/CHS_DDT_Excel_OR,Chrome 120.0.0.0,,,27-01-2024 12:21:24,27-01-2024 12:21:35,11.128s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,27-01-2024 12:21:24,27-01-2024 12:21:25,1.370s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,27-01-2024 12:21:25,27-01-2024 12:21:31,5.391s,PASSED
+"click(findTestObject(""Object Repository/CHS_DDT_Excel_001/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,27-01-2024 12:21:31,27-01-2024 12:21:32,0.986s,PASSED
+"click(findTestObject(""Object Repository/CHS_DDT_Excel_001/Page_CURA Healthcare Service/input_username""))",Chrome 120.0.0.0,,,27-01-2024 12:21:32,27-01-2024 12:21:32,0.476s,PASSED
+"click(findTestObject(""Object Repository/CHS_DDT_Excel_001/Page_CURA Healthcare Service/input_form-control""))",Chrome 120.0.0.0,,,27-01-2024 12:21:32,27-01-2024 12:21:32,0.377s,PASSED
+"setText(findTestObject(""Object Repository/CHS_DDT_Excel_001/Page_CURA Healthcare Service/input_username""), Username)",Chrome 120.0.0.0,,,27-01-2024 12:21:32,27-01-2024 12:21:33,0.724s,PASSED
+"click(findTestObject(""CHS_Pages_Create Account_OR/Page_CURA Healthcare Service/input_form-control_1""))",Chrome 120.0.0.0,,,27-01-2024 12:21:33,27-01-2024 12:21:34,0.385s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CHS_DDT_Excel_001/Page_CURA Healthcare Service/input_form-control_1""), Password)",Chrome 120.0.0.0,,,27-01-2024 12:21:34,27-01-2024 12:21:35,1.393s,FAILED

@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Cura_Multiple_Appointments,Chrome 120.0.0.0,,,29-01-2024 11:54:42,29-01-2024 11:55:48,1m - 6.106s,PASSED
+,,,,,,,
+Test Cases/Cura Health Care Services_Record and Playback Modes/TC_CHS_HomeValidate Multiple Appointsments_003,Chrome 120.0.0.0,,,29-01-2024 11:55:05,29-01-2024 11:55:48,43.092s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 11:55:05,29-01-2024 11:55:14,9.630s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,29-01-2024 11:55:14,29-01-2024 11:55:18,3.198s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,29-01-2024 11:55:18,29-01-2024 11:55:20,2.096s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,29-01-2024 11:55:20,29-01-2024 11:55:26,5.922s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 120.0.0.0,,,29-01-2024 11:55:26,29-01-2024 11:55:26,0.494s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Login""))",Chrome 120.0.0.0,,,29-01-2024 11:55:26,29-01-2024 11:55:27,0.920s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_form-control""))",Chrome 120.0.0.0,,,29-01-2024 11:55:27,29-01-2024 11:55:28,0.529s,PASSED
+"setText(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 120.0.0.0,,,29-01-2024 11:55:28,29-01-2024 11:55:28,0.703s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_form-control_1""))",Chrome 120.0.0.0,,,29-01-2024 11:55:28,29-01-2024 11:55:29,0.460s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,29-01-2024 11:55:29,29-01-2024 11:55:29,0.398s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,29-01-2024 11:55:29,29-01-2024 11:55:30,0.896s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,29-01-2024 11:55:30,29-01-2024 11:55:31,1.245s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 120.0.0.0,,,29-01-2024 11:55:31,29-01-2024 11:55:32,0.348s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 120.0.0.0,,,29-01-2024 11:55:32,29-01-2024 11:55:32,0.388s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date""))",Chrome 120.0.0.0,,,29-01-2024 11:55:32,29-01-2024 11:55:32,0.404s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_24""))",Chrome 120.0.0.0,,,29-01-2024 11:55:32,29-01-2024 11:55:33,0.465s,PASSED
+"setText(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment""), ""Take an Appointment"")",Chrome 120.0.0.0,,,29-01-2024 11:55:33,29-01-2024 11:55:34,0.849s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,29-01-2024 11:55:34,29-01-2024 11:55:35,0.754s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 120.0.0.0,,,29-01-2024 11:55:35,29-01-2024 11:55:35,0.841s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,29-01-2024 11:55:35,29-01-2024 11:55:36,0.481s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 120.0.0.0,,,29-01-2024 11:55:36,29-01-2024 11:55:36,0.354s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_programs""))",Chrome 120.0.0.0,,,29-01-2024 11:55:36,29-01-2024 11:55:37,0.762s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Medicare""))",Chrome 120.0.0.0,,,29-01-2024 11:55:37,29-01-2024 11:55:37,0.338s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date""))",Chrome 120.0.0.0,,,29-01-2024 11:55:37,29-01-2024 11:55:38,0.343s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_25""))",Chrome 120.0.0.0,,,29-01-2024 11:55:38,29-01-2024 11:55:38,0.533s,PASSED
+"setText(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment""), ""Take an 2nd Appointment"")",Chrome 120.0.0.0,,,29-01-2024 11:55:38,29-01-2024 11:55:39,0.934s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,29-01-2024 11:55:39,29-01-2024 11:55:40,0.660s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 120.0.0.0,,,29-01-2024 11:55:40,29-01-2024 11:55:41,1.003s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,29-01-2024 11:55:41,29-01-2024 11:55:41,0.384s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,29-01-2024 11:55:41,29-01-2024 11:55:43,1.457s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 120.0.0.0,,,29-01-2024 11:55:43,29-01-2024 11:55:43,0.363s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_programs_1""))",Chrome 120.0.0.0,,,29-01-2024 11:55:43,29-01-2024 11:55:43,0.426s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/input_visit_date""))",Chrome 120.0.0.0,,,29-01-2024 11:55:43,29-01-2024 11:55:44,0.387s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/td_31""))",Chrome 120.0.0.0,,,29-01-2024 11:55:44,29-01-2024 11:55:44,0.477s,PASSED
+"setText(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/textarea_comment""), ""Take Multiple Appointments"")",Chrome 120.0.0.0,,,29-01-2024 11:55:44,29-01-2024 11:55:45,0.802s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,29-01-2024 11:55:45,29-01-2024 11:55:46,0.685s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 120.0.0.0,,,29-01-2024 11:55:46,29-01-2024 11:55:46,0.511s,PASSED
+"click(findTestObject(""Object Repository/CHS_Pages_Multiple Appointments/Page_CURA Healthcare Service/a_History""))",Chrome 120.0.0.0,,,29-01-2024 11:55:46,29-01-2024 11:55:47,0.818s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,29-01-2024 11:55:47,29-01-2024 11:55:48,0.384s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 11:55:48,29-01-2024 11:55:48,0.101s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,29-01-2024 11:55:48,29-01-2024 11:55:48,0.112s,ERROR

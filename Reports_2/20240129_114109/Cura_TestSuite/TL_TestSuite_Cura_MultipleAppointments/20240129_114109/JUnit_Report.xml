@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TL_TestSuite_Cura_MultipleAppointments" time="0.0" tests="0" failures="0" errors="0">
+   <testsuite name="TL_TestSuite_Cura_MultipleAppointments" tests="0" failures="0" errors="0" time="0.0" skipped="0" timestamp="29-01-2024T11:41:16" hostname="modep - LAPTOP-FMBJHFG0" id="Test Suites/Cura_TestSuite/TL_TestSuite_Cura_MultipleAppointments">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240129_114109\\Cura_TestSuite\\TL_TestSuite_Cura_MultipleAppointments\\20240129_114109"/>
+         <property name="logFiles" value="C:\\Users\\modep\\Katalon Studio\\Software Automation Testing with Katalon_1\\Reports\\20240129_114109\\Cura_TestSuite\\TL_TestSuite_Cura_MultipleAppointments\\20240129_114109\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="modep - LAPTOP-FMBJHFG0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <system-out><![CDATA[29-01-2024T11:41:16 - [TEST_SUITE][INCOMPLETE] - TL_TestSuite_Cura_MultipleAppointments: null]]></system-out>
+      <system-err><![CDATA[29-01-2024T11:41:16 - [TEST_SUITE][INCOMPLETE] - TL_TestSuite_Cura_MultipleAppointments: null]]></system-err>
+   </testsuite>
+</testsuites>
