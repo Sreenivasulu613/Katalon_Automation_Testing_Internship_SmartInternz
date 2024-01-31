@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHS_Home_Validate Checking the Appointment is Booked or Not_004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cdde1a7-6c56-4b57-a854-2d61d1641d94</testCaseGuid>
+</TestCaseEntity>

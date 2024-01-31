@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CHS_DDT_Validate_Excel_OR</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce965bd9-47a1-4949-939d-f4c7ba1b6f06</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9aa75742-c3e1-48bf-8b10-c20116a2d3da</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e20eccea-e8d8-4475-957a-c0eb1b3a239f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

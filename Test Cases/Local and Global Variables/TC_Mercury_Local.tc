@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Mercury_Local</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>250192eb-0a71-460c-b8ca-4dc11c429d99</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>460e7969-51ca-4699-b740-9c523e7a9326</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5624c430-7d23-4659-8563-40571dd2846a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6557ae51-4945-4727-8212-be10165ba8cd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SREENIVAS'</defaultValue>
+      <description></description>
+      <id>460e7969-51ca-4699-b740-9c523e7a9326</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'NAIDU'</defaultValue>
+      <description></description>
+      <id>5624c430-7d23-4659-8563-40571dd2846a</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'8328077513'</defaultValue>
+      <description></description>
+      <id>6557ae51-4945-4727-8212-be10165ba8cd</id>
+      <masked>false</masked>
+      <name>phoneno</name>
+   </variable>
+</TestCaseEntity>
