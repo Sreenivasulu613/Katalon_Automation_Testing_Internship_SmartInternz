@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CHS_Excel_DDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f03b5f4d-8da4-4a4b-b46a-e2b27c45b0ff</testSuiteGuid>
+   <testCaseLink>
+      <guid>4b444168-ca1f-4cc0-853b-8f22141173fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data_Driven_Testing/CHS_DDT_Validate_Excel_OR</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5c5b18b0-99eb-46ea-bbd4-97c8fd03e323</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CHS_DDT_Excel_OR/CHS_DDT_Excel_OR</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5c5b18b0-99eb-46ea-bbd4-97c8fd03e323</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>9aa75742-c3e1-48bf-8b10-c20116a2d3da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5c5b18b0-99eb-46ea-bbd4-97c8fd03e323</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e20eccea-e8d8-4475-957a-c0eb1b3a239f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
