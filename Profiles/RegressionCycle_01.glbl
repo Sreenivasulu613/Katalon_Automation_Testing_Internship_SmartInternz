@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>RegressionCycle_01</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Chanti'</initValue>
+      <name>lastname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'9542356481'</initValue>
+      <name>phoneno</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'naidu@gmail.com'</initValue>
+      <name>emailid</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
